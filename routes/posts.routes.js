@@ -6,7 +6,7 @@ const {
 
 const router = express.Router();
 
-router.get('/', getAllPosts);
-router.post('/', createPost);
+router.get('/c', getAllPosts);
+router.post('/v', createPost);
 
 module.exports = router;
